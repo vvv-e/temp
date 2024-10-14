@@ -35,5 +35,5 @@ for student, grade in zip(sorted(students), grades):
     group[student] = grade
 print(group)
 
-group_5 = {sorted(students)[num]:round(sum(grades[num]) / len(grades[num]), 1) for num in range(len(average))}
+group_5 = {sorted(students)[num]:round(sum(grades[num]) / len(grades[num]), 1) for num in range(len(grades))}
 print(f"{group_5}")
