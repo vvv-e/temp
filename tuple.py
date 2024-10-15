@@ -10,4 +10,3 @@ for lst in tuple_of_lists:
     for item in lst:
         print(item, end=" ")
     print()  # Переход на новую строку после каждого списка
-
