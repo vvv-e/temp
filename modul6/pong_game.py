@@ -1,5 +1,5 @@
 import arcade
 
-class Game(arcade.Windows):
+class Game(arcade.Window):
     pass
 
