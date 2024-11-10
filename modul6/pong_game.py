@@ -1,5 +1,9 @@
 import arcade
 
 class Game(arcade.Window):
-    pass
+    def on_draw(self):
+        self.clear((255,255,0))
 
+if __name__ == '__main__':
+    windows = Game()
+    arcade.run()
