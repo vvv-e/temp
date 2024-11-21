@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
 
     def menu_file_about():
-        mb.showinfo(message="Аффтор: Вв.В", title="About")
+        mb.showinfo(message="Аффтор: В.Вв", title="About")
 
 
     window = tkinter.Tk()
