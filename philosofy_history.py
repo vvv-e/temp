@@ -1,4 +1,4 @@
 from random import randint
 
 if __name__ == '__main__':
-    print(randint(1, 20)
+    print(randint(1, 20))
